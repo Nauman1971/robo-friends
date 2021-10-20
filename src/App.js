@@ -28,10 +28,8 @@ function App() {
   return (
     <div className='tc'>
       <h1 className="f1">RoboFriends</h1>
-      {/* <Scroll> */}
       <SearchBox setsearchField={setsearchField} />
       <CardList robots={filteredRobots} />
-      {/* </Scroll> */}
     </div>
   );
 }
