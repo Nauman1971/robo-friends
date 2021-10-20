@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import CardList from './components/CardList';
 import SearchBox from './components/SearchBox';
-import Scroll from './components/Scroll';
 
 function App() {
   const [searchField, setsearchField] = useState('');
